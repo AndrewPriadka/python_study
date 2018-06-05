@@ -34,8 +34,8 @@ def ex2():
 def ex3():
     number = 0
     for number in range(11):
-        for second_namber in range(11):
-            print(number, '*', second_namber, '=', number*second_namber)
+        for second_number in range(11):
+            print(number, '*', second_number, '=', number*second_number)
         print()
 
 
@@ -132,5 +132,4 @@ def ex8():
         if minvalue < i < maxvalue:
             average = i
     print('average =', average)
-
 
